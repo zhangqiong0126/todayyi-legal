@@ -108,7 +108,7 @@
 <header>
   <h1>隱私政策 · Privacy Policy</h1>
   <p class="subtitle">今日宜 TodayYi · Atop Clouds Limited (Hong Kong)</p>
-  <p class="subtitle">最後更新 · Last updated: 2026-05-07 · 生效日 · Effective: 2026-05-07</p>
+  <p class="subtitle">最後更新 · Last updated: 2026-05-08 · 生效日 · Effective: 2026-05-07</p>
   <p class="lang-switch">
     <a href="#zh">繁體中文</a> · <a href="#en">English</a>
   </p>
@@ -175,6 +175,7 @@
 <h2>5. 我哋會將資料分享畀邊啲第三方</h2>
 <table>
   <tr><th>第三方</th><th>用途</th><th>資料類別</th></tr>
+  <tr><td>Google Firebase Authentication</td><td>iOS / Android App 登入身份驗證（手機 OTP / Apple / Google）</td><td>手機號（Phone OTP）、Apple User ID + email（Apple Sign-In）、Google 帳號 email + 名稱（Google Sign-In）。Firebase 喺驗證完即時返回 idToken 畀我哋換成自家 JWT，唔會儲長期。</td></tr>
   <tr><td>Apple IAP / Google Play Billing</td><td>處理 in-app 購買</td><td>由平台直接處理；我哋只收到匿名 transaction ID</td></tr>
   <tr><td>RevenueCat</td><td>訂閱管理 + 跨平台對賬</td><td>App 用戶 ID、訂閱狀態、購買事件</td></tr>
   <tr><td>Stripe</td><td>WhatsApp 渠道支付（唔涉及 iOS / Android App 內購買）</td><td>付款人 email / 卡資訊（直接由 Stripe 處理，我哋唔會 store 卡號）</td></tr>
@@ -299,6 +300,7 @@
 <h2>5. Third parties we share data with</h2>
 <table>
   <tr><th>Third party</th><th>Purpose</th><th>Data shared</th></tr>
+  <tr><td>Google Firebase Authentication</td><td>iOS / Android sign-in (Phone OTP / Apple / Google)</td><td>Phone number (Phone OTP), Apple user ID + email (Apple Sign-In), Google email + name (Google Sign-In). Firebase issues an idToken on verification which our backend exchanges for our own JWT; Firebase does not retain it long-term.</td></tr>
   <tr><td>Apple IAP / Google Play Billing</td><td>In-app purchases</td><td>Handled by platform; we receive anonymized transaction IDs</td></tr>
   <tr><td>RevenueCat</td><td>Subscription management + cross-platform receipts</td><td>App user ID, subscription status, purchase events</td></tr>
   <tr><td>Stripe</td><td>WhatsApp-channel payments (not iOS / Android in-app)</td><td>Payer email / card info (handled directly by Stripe; we do not store card numbers)</td></tr>
